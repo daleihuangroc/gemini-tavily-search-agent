@@ -1,0 +1,33 @@
+# --- Secrets & Environment Variables ---
+# Never commit your API keys!
+.env
+
+# --- Python & Virtual Environments ---
+# Ignore the local virtual environment folder
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDEs & Editors ---
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# --- Project Management (uv) ---
+# Note: You SHOULD keep uv.lock in Git for applications. 
+# Only ignore it if this were a shared library, but for an agent, keep it.
+# .python-version is usually kept, but you can ignore it if you prefer 
+# to let users decide their own Python version.
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
